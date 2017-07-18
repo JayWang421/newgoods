@@ -1,0 +1,29 @@
+package cn.wzj.goods.vo;
+
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class Subitem implements Serializable{
+	private Long iid ;
+	private Long sid ;
+	private String title ;
+	public Long getIid() {
+		return iid;
+	}
+	public void setIid(Long iid) {
+		this.iid = iid;
+	}
+	public Long getSid() {
+		return sid;
+	}
+	public void setSid(Long sid) {
+		this.sid = sid;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	
+}
